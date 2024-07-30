@@ -1,0 +1,11 @@
+/dist
+/node_modules
+
+# testing
+.next
+
+# local env files
+.env
+
+# typescript
+next-env.d.ts

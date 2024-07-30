@@ -1,0 +1,44 @@
+{
+  "name": "@akaswap/ui",
+  "version": "0.0.1",
+  "description": "",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "homepage": "",
+  "repository": {
+    "url": ""
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "tsup",
+    "dev-build": "tsup && npm link",
+    "dev-install": "npm install && npm link @akaswap/core",
+    "prettier": "prettier --ignore-path .gitignore .",
+    "format": "npm run prettier -- --write",
+    "format:check": "npm run prettier -- --check"
+  },
+  "keywords": [
+    "akaswap"
+  ],
+  "author": "akaSwap",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/mime-types": "^2.1.4",
+    "@types/node": "^20.14.10",
+    "@types/react": "^18.3.3",
+    "next": "^14.2.5",
+    "prettier": "^3.2.4",
+    "prettier-plugin-tailwindcss": "^0.6.5",
+    "react": "^18.3.1",
+    "tailwindcss": "^3.4.6",
+    "tsup": "^8.2.1",
+    "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "@google/model-viewer": "^3.5.0",
+    "fflate": "^0.8.2",
+    "mime": "^4.0.4",
+    "mime-types": "^2.1.35"
+  }
+}
