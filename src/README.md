@@ -11,3 +11,7 @@ hostname: "**"
 ]
 },
 '''
+
+## Demo
+
+The app dictionary is to show how to use the akaSwap UI by next.js and tailwind.css

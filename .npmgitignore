@@ -1,8 +1,22 @@
 /src
 /node_modules
+.gitignore
+
+# testing
+
 .next
+
+# local env files
+
 .env
 
+# typescript
+
+next-env.d.ts
 tsconfig.json
 tsup.config.ts
 
+# tailwind
+
+tailwind.config.js
+postcss.config.js
