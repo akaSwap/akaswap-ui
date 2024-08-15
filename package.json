@@ -37,6 +37,7 @@
     "typescript": "^5.5.3"
   },
   "dependencies": {
+    "@akaswap/core": "https://github.com/akaSwap/akaswap-core.git",
     "@google/model-viewer": "^3.5.0",
     "fflate": "^0.8.2",
     "mime": "^4.0.4",
