@@ -1,4 +1,5 @@
 import "./globals.css"
+import Script from "next/script"
 
 export const metadata = {
   title: "Next.js",
@@ -8,6 +9,12 @@ export const metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
+      <Script
+        async
+        strategy="afterInteractive"
+        type="module"
+        src="https://unpkg.com/@google/model-viewer@^2.1.1/dist/model-viewer.min.js"
+      />
       <body>{children}</body>
     </html>
   )

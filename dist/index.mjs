@@ -451,9 +451,9 @@ function GLBComponent({ src }) {
   };
   useEffect3(() => {
     handleResize();
-    global.addEventListener("resize", handleResize);
+    window.addEventListener("resize", handleResize);
     return () => {
-      global.removeEventListener("resize", handleResize);
+      window.removeEventListener("resize", handleResize);
     };
   }, [width, height]);
   return /* @__PURE__ */ React.createElement("div", { className: "relative mx-auto flex h-full w-full items-center justify-center", ref }, /* @__PURE__ */ React.createElement(

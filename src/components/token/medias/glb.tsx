@@ -22,10 +22,10 @@ export default function GLBComponent({ src }: { src: string }) {
 
   useEffect(() => {
     handleResize()
-    global.addEventListener("resize", handleResize)
+    window.addEventListener("resize", handleResize)
 
     return () => {
-      global.removeEventListener("resize", handleResize)
+      window.removeEventListener("resize", handleResize)
     }
   }, [width, height])
 

@@ -1,3 +1,5 @@
+"use client"
+
 import { getIpfsSrc, MediaLevel, MediaType } from "@akaswap/core"
 import { TokenRendererProps } from "../../types"
 import ImageComponent from "./medias/image"
